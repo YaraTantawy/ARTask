@@ -139,7 +139,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5d3ec274a979a494987756995ff84632, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5d3ec274a979a494987756995ff84632, type: 3}
       propertyPath: m_LocalPosition.z
@@ -195,6 +195,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5d3ec274a979a494987756995ff84632, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3690864763351889641}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5d3ec274a979a494987756995ff84632, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5661540642083918667}
   m_SourcePrefab: {fileID: 100100000, guid: 5d3ec274a979a494987756995ff84632, type: 3}
 --- !u!4 &298492998447789411 stripped
 Transform:
@@ -254,3 +257,21 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.01, y: 0.01, z: 0.01}
   m_Center: {x: 0, y: 0.006, z: 0}
+--- !u!114 &5661540642083918667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112289466579136473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 883b7079dd833d549bb6f8596dec2f7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FemaleChar
+  _renderer: {fileID: 7157996426594231778}
+--- !u!137 &7157996426594231778 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -2235892754628692118, guid: 5d3ec274a979a494987756995ff84632, type: 3}
+  m_PrefabInstance: {fileID: 265374490972033672}
+  m_PrefabAsset: {fileID: 0}

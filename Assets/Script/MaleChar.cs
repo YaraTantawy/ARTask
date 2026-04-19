@@ -1,9 +1,29 @@
 using UnityEngine;
 
-public class MaleChar : MonoBehaviour
+public class MaleChar : ARInteractableObject
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private Animator _animator;
+
+	private void OnEnable()
+	{
+		_animator = GetComponent<Animator>();
+	}
+
+	protected override void SetState(State state)
+	{
+		base.SetState(state);
+		switch(state)
+		{
+			case State.Idle:
+				_animator.SetTrigger("GoToIdle");
+				break;
+			case State.Active:
+				_animator.SetTrigger("StartInteraction");
+				break;
+		}
+	}
+	// Start is called once before the first execution of Update after the MonoBehaviour is created
+	void Start()
     {
         
     }
