@@ -1,59 +1,9 @@
 fileFormatVersion: 2
-guid: 2b8523d4fd56c0c49a419e34e5d6ddcb
+guid: 1b121cf50d4de924e8b7ae24b8343019
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Avatar_Default_Mat
-    second: {fileID: 2100000, guid: 24bf981628626254db71a5bb9d24d127, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Avatar_Male_Pole_Flins_Mat_Body
-    second: {fileID: 2100000, guid: dcf53cbbeba4a894ea264c2451bfe12e, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Avatar_Male_Pole_Flins_Mat_Brow
-    second: {fileID: 2100000, guid: f2b3b7768c4e96d4face59443bce0c01, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Avatar_Male_Pole_Flins_Mat_Dress
-    second: {fileID: 2100000, guid: 40930a126b8820c4299f9cdd391cb1a5, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Avatar_Male_Pole_Flins_Mat_Face
-    second: {fileID: 2100000, guid: cb1112494e39272408001d05893bd190, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Avatar_Male_Pole_Flins_Mat_Hair
-    second: {fileID: 2100000, guid: 7fd77cf5af51c0f4ba8c3d892646a82f, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Avatar_Male_Pole_Flins_Mat_Lantern_Eff
-    second: {fileID: 2100000, guid: 60fff1c6dbba5d74b897e429db6ff595, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Avatar_Male_Pole_Flins_Mat_Light
-    second: {fileID: 2100000, guid: d5b99beec726f3c4396251ad7f13e9e7, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Avatar_Male_Pole_Flins_Mat_Pupil
-    second: {fileID: 2100000, guid: e32f8fd130c750d41bdb47a7e6f11983, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Eff_Other_045_NDO_T_ZW_00
-    second: {fileID: 2100000, guid: daeb9276a3886f54a9f17daca66b7442, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -144,7 +94,7 @@ ModelImporter:
     globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
